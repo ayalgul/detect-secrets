@@ -20,6 +20,3 @@ jobs:
 install:
     - pip install tox
 script: make test
-cache:
-    directories:
-        - $HOME/.cache/pre-commit
